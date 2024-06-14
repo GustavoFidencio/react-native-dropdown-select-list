@@ -149,9 +149,9 @@ const SelectList: React.FC<SelectListProps> =  ({
                                 style={[{
                                     padding:0,
                                     height:20,
-                                    flex:1,
-                                    fontFamily,
-                                    color: 'pink'
+                                    // flex:1,
+                                    // fontFamily,
+                                    // color: 'pink'
                                 },inputStyles]}
                             />
                                 <TouchableOpacity onPress={() => slideup()} >
