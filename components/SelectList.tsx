@@ -146,7 +146,13 @@ const SelectList: React.FC<SelectListProps> =  ({
                                     });
                                     setFilteredData(result)
                                 }}
-                                style={[{padding:0,height:20,flex:1,fontFamily},inputStyles]}
+                                style={[{
+                                    padding:0,
+                                    height:20,
+                                    flex:1,
+                                    fontFamily,
+                                    color: 'pink'
+                                },inputStyles]}
                             />
                                 <TouchableOpacity onPress={() => slideup()} >
 
